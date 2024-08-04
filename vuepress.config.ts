@@ -67,6 +67,29 @@ export default defineUserConfig({
         maxDeep: 3
       }),
     },
+    {
+      mountPath: "/TopWar历史版本",
+      analysis: fileUrlTreeAnalysis({
+        "/release4002.zip":"https://topwarhistory.puter.site/release4002.zip",
+        "/release4017.zip":"https://topwarhistory.puter.site/release4017.zip",
+        "/release4020.zip":"https://topwarhistory.puter.site/release4020.zip",
+        "/release4021.zip":"https://topwarhistory.puter.site/release4021.zip",
+        "/release4022.zip":"https://topwarhistory.puter.site/release4022.zip",
+        "/release4023.zip":"https://topwarhistory.puter.site/release4023.zip",
+        "/release4030.zip":"https://topwarhistory.puter.site/release4030.zip",
+        "/release4031.zip":"https://topwarhistory.puter.site/release4031.zip",
+        "/release4032.zip":"https://topwarhistory.puter.site/release4032.zip",
+        "/release4033.zip":"https://topwarhistory.puter.site/release4033.zip",
+        "/release4035.zip":"https://topwarhistory.puter.site/release4035.zip",
+        "/release4037.zip":"https://topwarhistory.puter.site/release4037.zip",
+        "/release4038.zip":"https://topwarhistory.puter.site/release4038.zip",
+        "/release4041.zip":"https://topwarhistory.puter.site/release4041.zip",
+        "/release4050.zip":"https://topwarhistory.puter.site/release4050.zip",
+        "/release4051.zip":"https://topwarhistory.puter.site/release4051.zip",
+        "/release4052.zip":"https://topwarhistory.puter.site/release4052.zip",
+        "/release4053.zip":"https://topwarhistory.puter.site/release4053.zip"
+      }),
+    },
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
 })

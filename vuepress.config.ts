@@ -96,14 +96,14 @@ export default defineUserConfig({
         "/release4062.zip":"https://topwarhistory.puter.site/release4062.zip"
       }),
     },
-    {
+    /*{
       mountPath: "/gitee测试",
       analysis: giteeReleasesFilesAnalysis({
         user: "jja8",
         repository: "flist-test",
         direction: "desc"
       })
-    }
+    }*/
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
 })

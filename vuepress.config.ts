@@ -87,7 +87,11 @@ export default defineUserConfig({
         "/release4050.zip":"https://topwarhistory.puter.site/release4050.zip",
         "/release4051.zip":"https://topwarhistory.puter.site/release4051.zip",
         "/release4052.zip":"https://topwarhistory.puter.site/release4052.zip",
-        "/release4053.zip":"https://topwarhistory.puter.site/release4053.zip"
+        "/release4053.zip":"https://topwarhistory.puter.site/release4053.zip",
+        "/release4056.zip":"https://topwarhistory.puter.site/release4056.zip",
+        "/release4057.zip":"https://topwarhistory.puter.site/release4057.zip",
+        "/release4061.zip":"https://topwarhistory.puter.site/release4061.zip",
+        "/release4062.zip":"https://topwarhistory.puter.site/release4062.zip"
       }),
     },
     // ... 可以配置多个挂载路径和仓库，以此类推

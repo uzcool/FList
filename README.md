@@ -24,6 +24,7 @@
 直接将这些平台的文件挂载到 FList 列表中。
 
 - [X] GitHub Releases
+- [X] Gitee 发行版
 - [X] Hugging Face Datasets
 - [X] URL 下载链接
 
@@ -32,6 +33,7 @@
 
 - [X] Cloudflare Pages
 - [X] Vercel
+- [X] Netlify
 - [X] GitHub Pages
 
 ### 下载代理
@@ -39,6 +41,7 @@
 
 - [X] Cloudflare Pages
 - [X] Vercel
+- [X] Netlify
 
 ## 他是如何工作的?
 Flist 的工作原理很像是一个爬虫，它可以获取各个平台上的文件下载链接，之后将这些文件渲染成 HTML 静态页面，当用户下载文件时实际上会从原站下载。
@@ -57,6 +60,8 @@ Alist 是一个程序，需要在可执行的平台上运行，还需要搭配�
 ZFile 是一个适用于个人的在线网盘程序，需要java运行环境才能运行，和 Alist 部署和使用成本要比 Flist 高太多。
 而 Flist 就是为**零成本**，**长期分享**而生的，可以在任何边缘服务器上运行。例如 Cloudflare，Vercel，GitHub Pages等，这些平台都是免费的。
 
+## 交流社区
+- qq群：[768230849](https://qm.qq.com/q/aQxQYRVNaE)
 
 ## 鸣谢
 #### 以下是用到的工具或库，感谢这些项目的作者们的辛苦付出
